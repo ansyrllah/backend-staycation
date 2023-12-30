@@ -16,7 +16,7 @@ mongoose.connect('mongodb+srv://tsamazonauser:amazonapw@cluster0.3uydet8.mongodb
 });
 
 var indexRouter = require('./routes/index');
-var usersRouter = require('./routes/users');
+var usersRouter = require('./routes/users');  
 // router admin
 const adminRouter = require('./routes/admin');
 const apiRouter = require('./routes/api');
